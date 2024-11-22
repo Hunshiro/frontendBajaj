@@ -68,7 +68,7 @@ const JsonProcessor = () => {
       }
       formData.append('data', JSON.stringify(validJson.data));
 
-      const response = await fetch('https://bajaj-backend-9152.onrender.com/bfhl', {
+      const response = await fetch('https://bajaj-backend-7tq2.onrender.com/bfhl', {
         method: 'POST',
         headers: {
           'user_id': 'test_user',
